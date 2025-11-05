@@ -113,15 +113,15 @@
 
 /* Apply globally */
 body, h1, h2, h3, h4, h5, h6, p, a, span, input, button {
-  font-family: 'Aileron', sans-serif;
+  font-family: 'Aileron', sans-serif !important;
 }
 
 /* Force theme typography variables to use Aileron */
 :root {
-  --font-body--family: 'Aileron', sans-serif;
-  --font-subheading--family: 'Aileron', sans-serif;
-  --font-heading--family: 'Aileron', sans-serif;
-  --font-accent--family: 'Aileron', sans-serif;
+  --font-body--family: 'Aileron', sans-serif !important;
+  --font-subheading--family: 'Aileron', sans-serif !important;
+  --font-heading--family: 'Aileron', sans-serif !important;
+  --font-accent--family: 'Aileron', sans-serif !important;
 }
 * {
   box-sizing: border-box;
