@@ -810,7 +810,10 @@ p:empty {
   width: var(--icon-size-sm);
   height: var(--icon-size-sm);
 }
-
+.add-to-cart-icon--added
+{
+  display:none;
+}
 .relative {
   position: relative;
 }
