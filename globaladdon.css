@@ -810,7 +810,7 @@ p:empty {
   width: var(--icon-size-sm);
   height: var(--icon-size-sm);
 }
-.add-to-cart-icon
+.product-details .add-to-cart-icon
 {
   display:none;
 }
